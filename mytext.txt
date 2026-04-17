@@ -1,0 +1,6 @@
+you're using a FortiGate 61E with FortiOS 7.4.8 and getting a "Failed to save packet capture. Error: 403: Access denied" when trying to capture packets via Network > Diagnostics.
+What this error likely means:
+
+    403 Access Denied usually indicates a permissions issue related to your user account or the role/profile assigned to your administrator login.
+
+    It can also be caused by file system permission issues on the FortiGate itself, or policies preventing saving files.
